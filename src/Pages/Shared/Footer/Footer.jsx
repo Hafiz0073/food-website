@@ -26,7 +26,7 @@ function Footer() {
     });
     return (
         <>
-            <footer>
+            <footer id="contact">
                 <Container>
                     <Row>
                         <Col sm={6} lg={3} className="mb-4 mb-lg-0">
@@ -90,12 +90,12 @@ function Footer() {
                             <div>
                                 <ul className="list-unstyled text-center mb-0">
                                     <li>
-                                        <Link to="/">
-                                            © 2023 <span>CODE4EDUCATION</span>. All Rights Reserved
+                                        <Link to="https://hafizhub.com/">
+                                            © 2024 <span>Hafiz </span>. All Rights Reserved
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/">About Us</Link>
+                                        <Link to="/about">About Us</Link>
                                     </li>
                                     <li>
                                         <Link to="/">Terms Of Use</Link>

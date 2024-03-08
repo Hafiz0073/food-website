@@ -8,7 +8,7 @@ import Slide from "../Slide/Slide";
 
 const Home = () => {
     return (
-        <>
+        <home id="home">
             <Slide />
             <About />
             <AllMenu />
@@ -16,7 +16,7 @@ const Home = () => {
             <Brand />
             <Blog />
             <Contact />
-        </>
+        </home>
     );
 };
 

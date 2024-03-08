@@ -1,9 +1,9 @@
 import { Carousel, Container, Row } from "react-bootstrap";
 
-import User1 from '../../../assets/blog/review-author-1.jpg';
-import User2 from '../../../assets/blog/review-author-2.jpg';
-import User3 from '../../../assets/blog/review-author-3.jpg';
-import User4 from '../../../assets/blog/review-author-5.jpg';
+// import User1 from '../../../assets/blog/review-author-1.jpg';
+// import User2 from '../../../assets/blog/review-author-2.jpg';
+// import User3 from '../../../assets/blog/review-author-3.jpg';
+// import User4 from '../../../assets/blog/review-author-5.jpg';
 import './Blog.css'
 
 const Blog = () => {
@@ -15,7 +15,7 @@ const Blog = () => {
                         <Carousel.Item>
                             <Carousel.Caption>
                                 <div className="user_img">
-                                    <img src={User1} className="img-fluid" alt="User-1" />
+                                    <img src='https://i.ibb.co/ThkD4Ns/review-author-3.jpg' className="img-fluid" alt="User-1" />
                                 </div>
                                 <p>
                                     Etiam sapien sem at sagittis congue augue massa varius
@@ -35,7 +35,7 @@ const Blog = () => {
                         <Carousel.Item>
                             <Carousel.Caption>
                                 <div className="user_img">
-                                    <img src={User2} className="img-fluid" alt="User-2" />
+                                    <img src='https://i.ibb.co/DC0DtMT/review-author-5.jpg' className="img-fluid" alt="User-2" />
                                 </div>
                                 <p>
                                     Etiam sapien sem at sagittis congue augue massa varius
@@ -55,7 +55,7 @@ const Blog = () => {
                         <Carousel.Item>
                             <Carousel.Caption>
                                 <div className="user_img">
-                                    <img src={User3} className="img-fluid" alt="User-3" />
+                                    <img src='https://i.ibb.co/0ybyGpG/review-author-1.jpg' className="img-fluid" alt="User-3" />
                                 </div>
                                 <p>
                                     Etiam sapien sem at sagittis congue augue massa varius
@@ -75,7 +75,7 @@ const Blog = () => {
                         <Carousel.Item>
                             <Carousel.Caption>
                                 <div className="user_img">
-                                    <img src={User4} className="img-fluid" alt="User-4" />
+                                    <img src='https://i.ibb.co/0ybyGpG/review-author-1.jpg' className="img-fluid" alt="User-4" />
                                 </div>
                                 <p>
                                     Etiam sapien sem at sagittis congue augue massa varius

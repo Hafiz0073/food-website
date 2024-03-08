@@ -1,25 +1,25 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Pizza from '../../../assets/about/pizza.png'
-import Salad from '../../../assets/about/salad.png';
-import Delivery from '../../../assets/about/delivery-bike.png'
+// import Pizza from '../../../assets/about/pizza.png'
+// import Salad from '../../../assets/about/salad.png';
+// import Delivery from '../../../assets/about/delivery-bike.png'
 import './About.css'
 
 const About = () => {
     // Mock Data Cards
     const mockData = [
         {
-            image: Pizza,
+            image: 'https://i.ibb.co/GR8Xy4L/pizza.png',
             title: "Original",
             paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
         },
         {
-            image: Salad,
+            image: 'https://i.ibb.co/g9KkdjY/salad.png',
             title: "Qualty Foods",
             paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
         },
         {
-            image: Delivery,
+            image: 'https://i.ibb.co/7WC0zwJ/delivery-bike.png',
             title: "Fastest Delivery",
             paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
         },
@@ -27,7 +27,7 @@ const About = () => {
     ];
     return (
         <>
-            <section className="about_section">
+            <section className="about_section" id="about">
                 <Container>
                     <Row>
                         <Col lg={{ span: 8, offset: 2 }} className="text-center">

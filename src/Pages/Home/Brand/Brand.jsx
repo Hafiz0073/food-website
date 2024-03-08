@@ -1,23 +1,25 @@
 import { Carousel, Col, Container, Row } from 'react-bootstrap';
 import './Brand.css';
 import { Link } from 'react-router-dom';
-import StoreIOS from '../../../assets/shop/appstore.png';
-import StoreGoogle from '../../../assets/shop/googleplay.png';
-import DownloadImage from '../../../assets/shop/e-shop.png';
-import Brand1 from '../../../assets/brands/brand-11.png'
-import Brand2 from '../../../assets/brands/brand-12.png'
-import Brand3 from '../../../assets/brands/brand-13.png'
-import Brand4 from '../../../assets/brands/brand-14.png'
-import Brand5 from '../../../assets/brands/brand-15.png'
-import Brand6 from '../../../assets/brands/brand-16.png'
-import Brand7 from '../../../assets/brands/brand-17.png'
-import Brand8 from '../../../assets/brands/brand-18.png'
+// import StoreIOS from '../../../assets/shop/appstore.png';
+// import StoreGoogle from '../../../assets/shop/googleplay.png';
+// import DownloadImage from '../../../assets/shop/e-shop.png';
+// import Brand1 from 'https://i.ibb.co/qmzZMsJ/brand-16.png'
+// import Brand2 from '../../../assets/brands/brand-12.png'
+// import Brand3 from '../../../assets/brands/brand-13.png'
+// import Brand4 from '../../../assets/brands/brand-14.png'
+// import Brand5 from '../../../assets/brands/brand-15.png'
+// import Brand6 from '../../../assets/brands/brand-16.png'
+// import Brand7 from '../../../assets/brands/brand-17.png'
+// import Brand8 from '../../../assets/brands/brand-18.png'
 
 const Brand = () => {
     return (
 
+
+
         <>
-            <section className="shop_section">
+            <section className="shop_section" id='shop'>
                 <Container>
                     <Row className="align-items-center">
                         <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
@@ -29,21 +31,21 @@ const Brand = () => {
                             </p>
                             <Link to="/">
                                 <img
-                                    src={StoreIOS}
+                                    src='https://i.ibb.co/1vtY4vK/appstore.png'
                                     alt="IOS"
                                     className="img-fluid store me-3"
                                 />
                             </Link>
                             <Link to="/">
                                 <img
-                                    src={StoreGoogle}
+                                    src=' https://i.ibb.co/cCHpjj6/googleplay.png'
                                     alt="Android"
                                     className="img-fluid store me-3"
                                 />
                             </Link>
                         </Col>
                         <Col lg={6}>
-                            <img src={DownloadImage} alt="e-shop" className="img-fluid" />
+                            <img src='https://i.ibb.co/j61xDFV/e-shop.png' alt="e-shop" className="img-fluid" />
                         </Col>
                     </Row>
                 </Container>
@@ -56,23 +58,21 @@ const Brand = () => {
                                 <Carousel.Caption>
                                     <div className="d-flex align-items-center justify-content-between">
                                         <div className="brand_img">
-                                            <img src={Brand1} className="img-fluid" alt="brand-1" />
+                                            <img src='https://i.ibb.co/qmzZMsJ/brand-16.png' className="img-fluid" alt="brand-1" />
                                         </div>
                                         <div className="brand_img">
-                                            <img src={Brand2} className="img-fluid" alt="brand-2" />
+                                            <img src='https://i.ibb.co/rMy9xvF/brand-17.png' className="img-fluid" alt="brand-2" />
                                         </div>
                                         <div className="brand_img">
-                                            <img src={Brand3} className="img-fluid" alt="brand-3" />
+                                            <img src='https://i.ibb.co/7JJBNwN/brand-18.png' className="img-fluid" alt="brand-3" />
                                         </div>
                                         <div className="brand_img">
-                                            <img src={Brand4} className="img-fluid" alt="brand-4" />
+                                            <img src='https://i.ibb.co/DGp3XYv/brand-11.png' className="img-fluid" alt="brand-4" />
                                         </div>
                                         <div className="brand_img">
-                                            <img src={Brand5} className="img-fluid" alt="brand-5" />
+                                            <img src='https://i.ibb.co/LN2wJrr/brand-12.png' className="img-fluid" alt="brand-5" />
                                         </div>
-                                        <div className="brand_img">
-                                            <img src={Brand6} className="img-fluid" alt="brand-6" />
-                                        </div>
+
                                     </div>
                                 </Carousel.Caption>
                             </Carousel.Item>
@@ -80,22 +80,13 @@ const Brand = () => {
                                 <Carousel.Caption>
                                     <div className="d-flex align-items-center justify-content-between">
                                         <div className="brand_img">
-                                            <img src={Brand3} className="img-fluid" alt="brand-3" />
+                                            <img src='https://i.ibb.co/Pt0j9PZ/brand-13.png' className="img-fluid" alt="brand-6" />
                                         </div>
                                         <div className="brand_img">
-                                            <img src={Brand4} className="img-fluid" alt="brand-4" />
+                                            <img src='https://i.ibb.co/pzgmYfN/brand-14.png' className="img-fluid" alt="brand-6" />
                                         </div>
                                         <div className="brand_img">
-                                            <img src={Brand5} className="img-fluid" alt="brand-5" />
-                                        </div>
-                                        <div className="brand_img">
-                                            <img src={Brand6} className="img-fluid" alt="brand-6" />
-                                        </div>
-                                        <div className="brand_img">
-                                            <img src={Brand7} className="img-fluid" alt="brand-7" />
-                                        </div>
-                                        <div className="brand_img">
-                                            <img src={Brand8} className="img-fluid" alt="brand-8" />
+                                            <img src='https://i.ibb.co/Thr7j5d/brand-15.png' className="img-fluid" alt="brand-6" />
                                         </div>
                                     </div>
                                 </Carousel.Caption>
